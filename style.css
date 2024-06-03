@@ -19,7 +19,7 @@
     --bg-acessibilidade: #f6e7ff;
     --white: #fff;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
-}  
+}
 
 body{
     height: 100svh;
@@ -102,9 +102,25 @@ main {
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.assuntos button div{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.assuntos button img{
+    height: 100%;
 }
 
 .botao_html div{
+
     background: var(--bg-html);
 }
 
