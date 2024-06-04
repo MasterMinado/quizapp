@@ -155,7 +155,7 @@ main{
 
 .barra_progresso div{
     height: 100%;
-    width: 60%;
+    
     background: var(--purple);
     border-radius: 999px;
 }
@@ -323,7 +323,7 @@ main{
         font-size: 36px;
         line-height: 42px;
     }
-    
+
     .alternativas form{
         gap: 24px;
         margin-bottom: 24px;
