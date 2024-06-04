@@ -96,6 +96,9 @@ header{
     border: none;
     border-radius: 999px;
     padding: 4px;
+    display: flex;
+    flex-direction: flex-start;
+    cursor: pointer;
 }
 
 .tema button div{
