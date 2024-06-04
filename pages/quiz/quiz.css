@@ -160,9 +160,26 @@ main{
 
 .alternativas label:has(input:checked){
     outline: 3px solid var(--purple);
-
     & span{
         background: var(--purple);
+        color: var(--white);
+    }
+}
+
+.alternativas label#correta{
+    outline: 3px solid var(--green);
+
+    & span{
+        background: var(--green);
+        color: var(--white);
+    }
+}
+
+.alternativas label#errada{
+    outline: 3px solid var(--red);
+
+    & span{
+        background: var(--red);
         color: var(--white);
     }
 }
@@ -181,7 +198,7 @@ main{
     border-radius: 5px;
     color: var(--secondary-text-color);
     flex-shrink: 0;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
