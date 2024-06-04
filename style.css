@@ -32,9 +32,9 @@ body.escuro{
 }
 
 body{
-    
+
     height: 100svh;
-    background: var(--bg-mobile);
+    background: var(--bg-mobile) var(--bg-color);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -43,6 +43,8 @@ header{
     padding: 16px 24px;
     display: flex;
     justify-content: flex-end;
+    max-width: 1160px;
+    margin-inline: auto;
 }
 
 .tema{
@@ -63,6 +65,7 @@ header{
     border: none;
     border-radius: 999px;
     padding: 4px;
+    display: flex;
 }
 
 .tema button div{
