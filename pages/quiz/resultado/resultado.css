@@ -64,6 +64,22 @@ header{
     border-radius: 5px;
 }
 
+.assunto_icone.html{
+    background: var(--bg-html);
+}
+
+.assunto_icone.css{
+    background: var(--bg-css);
+}
+
+.assunto_icone.javascript{
+    background: var(--bg-javascript);
+}
+
+.assunto_icone.acessibilidade{
+    background: var(--bg-acessibilidade);
+}
+
 .assunto_icone img{
     width: 100%;
 }
@@ -130,7 +146,7 @@ main h2 strong{
     box-shadow: var(--shadow);
 }
 
-.pontuacao strong{ 
+.pontuacao strong{
     font-size: 88px;
     color: var(--primary-text-color);
     font-weight: 500;
@@ -172,7 +188,7 @@ main button:hover{
         max-width: 1160px;
         margin-inline: auto;
     }
-    
+
     .assunto_icone{
         width: 56px;
         height: 56px;
@@ -229,7 +245,7 @@ main button:hover{
     .pontuacao p{
         font-size: 24px;
     }
-
+    
     main button{
         font-size: 22px;
         padding: 24px;
