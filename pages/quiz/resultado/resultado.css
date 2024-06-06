@@ -21,7 +21,6 @@
     --bg-javascript: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
     --white: #fff;
-
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
@@ -48,6 +47,12 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 16px 24px;
+}
+
+.assunto h1{
+font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-text-color);
 }
 
 .assunto{
@@ -153,7 +158,7 @@ main h2 strong{
 }
 
 .pontuacao p{
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
     font-size: 18px;
 }
 
@@ -245,7 +250,7 @@ main button:hover{
     .pontuacao p{
         font-size: 24px;
     }
-    
+
     main button{
         font-size: 22px;
         padding: 24px;
